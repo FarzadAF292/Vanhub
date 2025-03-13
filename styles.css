@@ -1,4 +1,6 @@
-/* font-family: 'Satoshi', sans-serif; */
+/* font-family: 'Satoshi', sans-serif; 
+font-family: 'Sentient', serif;
+*/
 * {
   margin: 0;
   padding: 0;
@@ -129,4 +131,86 @@ header {
 }
 .breadcrumb .username {
   color: #737373;
+}
+
+.info {
+  height: 483px;
+  width: 200px;
+  background-color: #d4d4d4;
+}
+
+.name {
+  padding: 10px 10px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.name h3 {
+  font-family: "Sentient", serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27.2px;
+  color: #171717;
+}
+
+.status {
+  padding: 0 10px;
+}
+
+.available {
+  background-color: #fafafa;
+  border-radius: 14px;
+  width: 52px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  padding: 3px 5px;
+  gap: 3px;
+}
+
+.circle {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #2c9851;
+}
+
+.status span {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 8px;
+  color: #2c9851;
+}
+
+.scores {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border-top: 0.5px solid #a3a3a3;
+}
+
+.score {
+  text-align: center;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.score span {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 10.8px;
+  color: #737373;
+}
+
+.score p {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16.2px;
+  color: #171717;
 }
